@@ -23,6 +23,7 @@
     "webdriverio": "^5.18.4"
   },
   "dependencies": {
-    "@wdio/cli": "^5.18.4"
+    "@wdio/cli": "^5.18.4",
+    "cryptiles": "^4.1.3"
   }
 }
