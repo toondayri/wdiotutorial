@@ -2,7 +2,7 @@
 
 My Journey to being a QA Rockstar. 
 
-Day 1 
+Day 1 [06/01/20]
 - Created a new repo 
 - Learnt how to Install and handle dependencies 
 - Learnt how to interact with Elements 
@@ -10,5 +10,5 @@ Day 1
 - Learnt how to use element actions
 
 
-Day 2
-- Learnt using Keyboard and mouse input 
+Day 2 [07/01/20]
+- Learnt using Keyboard and mouse input
