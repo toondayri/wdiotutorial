@@ -35,6 +35,47 @@ class Internet {
         return $('#password');
     }
 
+    get target(){
+        return $('.example #target');
+    }
+
+    get result(){
+        return $('.example #result');
+    }
+
+    clickTarget(){
+        this.target.waitForDisplayed();
+        this.target.click();
+    }
+
+    sendKeysToTarget(text){
+        this.target.waitForDisplayed();
+        this.target.keys(text);
+    }
+
+    getResultText(){
+        this.result.waitForDisplayed();
+        return this.result.getText();
+    }
+
+    figures(index){
+        return $(`.example .figure:nth-child(${index}) img`);
+    }
+
+    figureDetails(index){
+        return $(`.example .figure:nth-child(${index}) .figcaption h5`)
+    }
+
+    hoverOnFigure(index){
+        this.figures(index).waitForDisplayed();
+        this.figures(index).moveTo(1,1);
+    }
+
+    getFigureDetailsText(index){
+        this.figureDetails(index).waitForDisplayed();
+        return this.figureDetails(index).getText();
+    }
+
     enterUserName(text){
         this.username.waitForDisplayed(); 
         this.username.setValue(text);

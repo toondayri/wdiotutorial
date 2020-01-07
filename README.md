@@ -8,3 +8,7 @@ Day 1
 - Learnt how to interact with Elements 
 - Learnt how to verify element states 
 - Learnt how to use element actions
+
+
+Day 2
+- Learnt using Keyboard and mouse input 
