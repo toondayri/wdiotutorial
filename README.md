@@ -12,3 +12,6 @@ Day 1 [06/01/20]
 
 Day 2 [07/01/20]
 - Learnt using Keyboard and mouse input
+
+Day 3 [12/01/20]
+- Learnt scroll function
