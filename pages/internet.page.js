@@ -43,6 +43,10 @@ class Internet {
         return $('.example #result');
     }
 
+    scrollToPageFooter(){
+        this.pageFooter.moveTo();
+    }
+
     clickTarget(){
         this.target.waitForDisplayed();
         this.target.click();
