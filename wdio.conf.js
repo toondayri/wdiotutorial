@@ -186,12 +186,9 @@ exports.config = {
 
         chai.use(chaiWebdriver(browser))
 
-
         global.assert = chai.assert
         global.should = chai.should
         global.expect = chai.expect
-
-
     },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
