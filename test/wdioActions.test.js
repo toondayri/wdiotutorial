@@ -6,7 +6,6 @@ describe('WebdriverIO API Actions', function () {
         browser.url(`${browser.options.baseUrl}/hovers`);
         internetPage.hoverOnFigure(3);
         assert.equal('name: user1', internetPage.getFigureDetailsText(3));
-        browser.pause(5000);
     })
 
     it('should hover on figure 2', () => {
@@ -26,7 +25,6 @@ describe('WebdriverIO API Actions', function () {
         internetPage.clickTarget(); 
         internetPage.sendKeysToTarget('Backspace');
         assert.equal('You entered: BACK_SPACE', internetPage.getResultText());
-        browser.pause(5000);
     })
 
     it('should send keyboard value Backspace Shift', () => {
@@ -34,6 +32,5 @@ describe('WebdriverIO API Actions', function () {
         internetPage.clickTarget(); 
         internetPage.sendKeysToTarget('Shift');
         assert.equal('You entered: SHIFT', internetPage.getResultText());
-        browser.pause(5000);
     })
 })
